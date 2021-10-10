@@ -11,7 +11,8 @@ console.log(parseInt(c));
 console.log(parseFloat(c));
 console.log(typeof c, typeof d);
 console.log(a+b);
-console.log(c+d); //Contatenó en vez de sumar porque ni se puede sumar un dato tipo number, con una string
-let num = "100"
-console.log(num)
+console.log(c+d); //Concatenó en vez de sumar porque ni se puede sumar un dato tipo number, con una string
+console.log(c+parseInt(d)) 
+console.log(c+parseFloat(d)) 
+console.log(c+Number.parseFloat(d)) 
 
